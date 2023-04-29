@@ -1,0 +1,134 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.container{
+	width:1350px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-container{
+	margin-top:30px;
+	display:flex;
+	justify-content:center;
+}
+.flex-item12{
+	width:100%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.main{
+	display:flex;
+	gap:15px;
+	padding:20px;
+	border-color:gray;
+	box-shadow: 0 0 1px 2px #e8e8e8;
+}
+.main button{
+	font-size:20px;
+	cursor:pointer;
+}
+.blue {
+	padding:10px;
+	color:white;
+	border-radius:5px;
+	font-family:georgian;
+	border:none;
+	background-color:#0e6dfd;
+}
+.gray{
+	padding:10px;
+	color:white;
+	border-radius:5px;
+	font-family:georgian;
+	border:none;
+	background-color:#6b757e;
+}
+.green{
+	padding:10px;
+	color:white;
+	border-radius:5px;
+	font-family:georgian;
+	border:none;
+	background-color:#1a8654;
+}
+.red{
+	padding:10px;
+	color:white;
+	border-radius:5px;
+	font-family:georgian;
+	border:none;
+	background-color:#db3445;
+}
+.yellow{
+	padding:10px;
+	color:black;
+	border-radius:5px;
+	font-family:georgian;
+	border:none;
+	background-color:#ffc200;
+}
+.skyblue{
+	padding:10px;
+	color:black;
+	border-radius:5px;
+	font-family:georgian;
+	border:none;
+	background-color:#15ceed;
+}
+.white{
+	padding:10px;
+	color:black;
+	border-radius:5px;
+	font-family:georgian;
+	border:none;
+	background-color:#f8f9fb;
+}
+.black{
+	padding:10px;
+	color:white;
+	border-radius:5px;
+	font-family:georgian;
+	border:none;
+	background-color:#212428;
+}
+.link{
+	text-decoration: underline;
+    padding: 10px;
+    color: #2648a9;
+    /* border-radius: 5px; */
+    font-family: georgian;
+    border: none;
+    background-color: white;
+}
+.blue:hover{
+	background-color:red;
+}
+.gray:hover{
+	background-color:red;
+}
+.green:hover{
+	background-color:red;
+}
+.red:hover{
+	background-color:red;
+}
+.yellow:hover{
+	background-color:red;
+}
+.skyblue:hover{
+	background-color:red;
+}
+.white:hover{
+	background-color:red;
+}
+.black:hover{
+	background-color:red;
+}
+.link:hover{
+	background-color:red;
+}
